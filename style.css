@@ -4,11 +4,13 @@ body {
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
-  color: #FFA500;
+  color: #5F9EA0;
   background-color: #f2f4f6;
   background-image: url("img/tool.jpg");
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-position: top center;
+  background-attachment: fixed;
+  background-size: 100%;
 }
 
 .container {
@@ -178,8 +180,8 @@ body {
 
 .page-footer {
   padding: 40px 0;
-  background-color: #6B8E23;
-  color: #DC143C;
+  background-color: #EEE8AA;
+  color: #20B2AA;
 }
 
 .page-footer a {
